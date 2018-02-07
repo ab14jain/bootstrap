@@ -1,0 +1,9 @@
+.space {
+    height: 50px;
+    display: block;
+    background-color: lightgrey;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: xx-large;
+}

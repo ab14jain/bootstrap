@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--<meta http-equiv="content-type" content="text/html; charset=UTF-8">-->
+		<meta charset="utf-8">
+		<title>Bootstrap Example</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="./css/bootstrap.css" rel="stylesheet">
+		<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="./public/css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+        <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">Developer</a>			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Portfolio</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#"><span class="glyphicon glyphicon-user"></span>Me</a>
+					</li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#">Testimonials</a>
+                    </li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contacts</a>
+					</li>
+				</ul>				
+			</div>
+		</nav>
+
+        
+        <div class="home container-fluid" style="height: 700px; background-color: green;">            
+            <div class="row">     
+                <div class="col-lg-6 offset-lg-4"><span class="h1 text-center">SharePoint Developer</span></div>                             
+                    
+            </div>
+        </div>
+
+        <div class="portfolio container-fluid" style="height: 700px; background-color: red;">            
+            <div class="row">     
+                <div class="col-lg-6 offset-lg-4"><span class="h1 text-center">Latest Work</span></div>                             
+                    
+            </div>
+        </div>
+
+        <div class="me container-fluid" style="height: 700px; background-color: greenyellow;">            
+            <div class="row">     
+                <div class="col-lg-6 offset-lg-4"><span class="h1 text-center">Some Cool Facts About Me</span></div>                             
+                    
+            </div>
+        </div>
+
+        <div class="testimonial container-fluid" style="height: 700px; background-color: blue;">            
+            <div class="row">     
+                <div class="col-lg-6 offset-lg-4"><span class="h1 text-center">What clients say</span></div>                             
+                    
+            </div>
+        </div>
+
+        <div class="contact container-fluid" style="height: 350px; background-color: orange;">            
+            <div class="row">  
+                  
+                <div class="col-lg-6 offset-lg-5"><span class="h1 text-center">Contact</span></div>
+                    
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="form-group col-lg-12">                            
+                            <input type="text" class="form-control" id="txtboxName" placeholder="abhishek">
+                        </div>
+
+                        <div class="form-group col-lg-12">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        
+                        <div class="form-group col-lg-12">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Say Something"></textarea>
+                        </div>
+                        <div class="col-lg-12">
+                            <button type="submit" class="btn btn-secondary btn-block">Submit</button>
+                        </div>
+
+                        
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <label>Address</label>
+                            <p> <b>#388/21, 7th Cross 3rd Main, Jakksandra, Kormangala, Bengaluru, Karnataka-560034</b></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <label>Mobile</label>
+                            <p><b>+91-9620981496</b></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <label>Email Address</label>
+                            <p><b>abhishekkumar.jain@outlook.com</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar sticky-bottom navbar-light bg-light">
+            <div class="copyright">© 2018 Developer</div>
+        </nav>
+					
+		<!-- script references -->
+		
+		
+		<script src="./js/jquery-3.3.1.js"></script>
+		<script src="./js/bootstrap.js"></script>
+        <script src="./public/js/app.js"></script>
+	</body>
+</html>
